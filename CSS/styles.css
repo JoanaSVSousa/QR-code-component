@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    max-width: 1440px;
+    background-color: hsl(212, 45%, 89%);
+    
+}
+h1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 2% 5% 2%;
+}
+p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    margin: 2% 3% 10%;
+}
+/************ Class Selectors ****************/
+/*.blue-background {
+    background-color: hsl(212, 45%, 89%);
+    max-width: 8%;
+    margin: 8% auto;
+    box-shadow: 0 5px 15px hsl(220, 15%, 55%);
+    border: 1px solid transparent;
+}*/
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10% auto 10%;
+    max-width: 20%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    box-shadow: 0 5px 15px hsl(220, 15%, 55%);
+}
+.qr-code {
+max-width: 90%;
+border-radius: 5%;
+margin: 5% auto;
+}
