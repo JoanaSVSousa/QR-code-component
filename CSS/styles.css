@@ -23,13 +23,6 @@ p {
     margin: 2% 3% 10%;
 }
 /************ Class Selectors ****************/
-/*.blue-background {
-    background-color: hsl(212, 45%, 89%);
-    max-width: 8%;
-    margin: 8% auto;
-    box-shadow: 0 5px 15px hsl(220, 15%, 55%);
-    border: 1px solid transparent;
-}*/
 .card {
     display: flex;
     flex-wrap: wrap;
