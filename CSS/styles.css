@@ -15,25 +15,24 @@ body {
 h1 {
     font-weight: 700;
     font-size: 20px;
-    margin: 2% 5% 2%;
+    margin: 2% 5%;
 }
 p {
     font-weight: 400;
     color: hsl(220, 15%, 55%);
     margin: 2% 3% 10%;
 }
-/************ Class Selectors ****************/
 .card {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10% auto 10%;
-    max-width: 20%;
+    display: inline-block;
+    align-self: center;
+    margin: 10%;
+    max-width: 250px;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 5%;
     box-shadow: 0 5px 15px hsl(220, 15%, 55%);
+    border-radius: 15px;
 }
 .qr-code {
 max-width: 90%;
-border-radius: 5%;
 margin: 5% auto;
+border-radius: 15px;
 }
